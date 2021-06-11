@@ -25,7 +25,7 @@ import com.bavithran.PackageAPI.ClassAPI.resfulwebservice.jwt.JwtTokenUtil;
 import com.bavithran.PackageAPI.ClassAPI.resfulwebservice.jwt.JwtUserDetails;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")
