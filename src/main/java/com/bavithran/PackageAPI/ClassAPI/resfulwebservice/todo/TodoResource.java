@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
-@CrossOrigin(origins="https://avithran.github.io")
+@CrossOrigin
 public class TodoResource {
 
 	@Autowired
